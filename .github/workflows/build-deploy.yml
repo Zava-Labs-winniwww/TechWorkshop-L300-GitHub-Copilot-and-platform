@@ -1,9 +1,9 @@
 name: Build and Deploy
 
 on:
-pull_request:
-   branches: [ main ]
-workflow_dispatch:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 env:
   IMAGE_NAME: zava-storefront
